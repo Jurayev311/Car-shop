@@ -1,11 +1,23 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 
 const Header = () => {
+
+  const [scrolled, setScrolled] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 10)
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
   return (
-    <header className='fixed top-0 left-0 w-full bg-transparent border-b-[1px] border-b-gray-200 z-50 text-white'>
+    <header className={`fixed top-0 left-0 w-full border-b-[1px] border-b-gray-300 z-50 duration-200 ${scrolled ? 'bg-[#ffffff73] backdrop-blur-[8px] text-black' : 'bg-transparent text-white'}`}>
       <div className='container'>
-        <nav className='flex items-center justify-between h-[80px]'>
+        <nav className='flex items-center justify-between h-[75px]'>
           <Link>
             <h2 className='uppercase font-bold'>Cars Shop</h2>
           </Link>
