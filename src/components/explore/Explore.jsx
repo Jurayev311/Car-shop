@@ -1,6 +1,5 @@
 import React from "react";
 import camry from "../../assets/carstatic.jpg";
-import { FaTachometerAlt, FaCogs, FaDollarSign } from "react-icons/fa";
 
 const Cars = [
     {
