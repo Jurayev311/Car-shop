@@ -19,7 +19,7 @@ const Header = () => {
       <div className='container'>
         <nav className='flex items-center justify-between h-[75px]'>
           <Link>
-            <h2 className='uppercase font-bold'>Cars Shop</h2>
+            <h2 className='uppercase font-bold text-xl'>Cars Shop</h2>
           </Link>
 
           <ul className='flex items-center gap-[30px] text-[15px] font-medium'>
