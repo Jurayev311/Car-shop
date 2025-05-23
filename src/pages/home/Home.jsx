@@ -5,6 +5,7 @@ import Explore from '../../components/explore/Explore'
 import Why from '../../components/why/Why'
 import Specials from '../../components/specials/Specials'
 import OurTeam from '../../components/OurTeam/OurTeam'
+import Progress from '../../components/progress/Progress'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Why />
       <Specials />
       <OurTeam />
+      <Progress />
     </>
   )
 }
