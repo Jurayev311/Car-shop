@@ -28,19 +28,19 @@ const Hero = () => {
           </div>
 
           <SwiperSlide>
-            <img className='w-full h-[80vh] md:h-[90vh] object-cover' src={mercedes} alt="Mercedes-Benz, C Class" />
+            <img className='w-full h-[80vh] md:h-screen object-cover' src={mercedes} alt="Mercedes-Benz, C Class" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className='w-full h-[80vh] md:h-[90vh] object-cover' src={fast} alt="Fast car view" />
+            <img className='w-full h-[80vh] md:h-screen object-cover' src={fast} alt="Fast car view" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className='w-full h-[80vh] md:h-[90vh] object-cover' src={lifestyle} alt="Lifestyle image" />
+            <img className='w-full h-[80vh] md:h-screen object-cover' src={lifestyle} alt="Lifestyle image" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className='w-full h-[80vh] md:h-[90vh] object-cover' src={Perfect} alt="Perfect car scenery" />
+            <img className='w-full h-[80vh] md:h-screen object-cover' src={Perfect} alt="Perfect car scenery" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className='w-full h-[80vh] md:h-[90vh] object-cover' src={Ranger} alt="Ranger car" />
+            <img className='w-full h-[80vh] md:h-screen object-cover' src={Ranger} alt="Ranger car" />
           </SwiperSlide>
         </Swiper>
       </div>
