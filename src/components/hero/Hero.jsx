@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import mercedes from '../../assets/Mercedes.jpg';
 import fast from '../../assets/Fast.jpg';
-import lifestyle from '../../assets/lifestyle.png';
+import lifestyle from '../../assets/lifestyle.jpg';
 import Perfect from '../../assets/Perfect.jpg';
 import Ranger from '../../assets/Ranger.jpg';
 import { CgArrowTopRight } from "react-icons/cg";
