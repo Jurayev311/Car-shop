@@ -17,6 +17,11 @@
     margin: 0 auto;
 }
 
+.active {
+  font-weight: bold;
+}
+
+
 .swiper-button-next,
 .swiper-button-prev {
   width: 40px !important;
