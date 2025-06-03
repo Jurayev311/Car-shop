@@ -1,8 +1,11 @@
 import React from 'react'
+import ComingSoon from '../../components/comingSoon/ComingSoon'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <>
+      <ComingSoon />
+    </>
   )
 }
 
