@@ -1,11 +1,18 @@
 import React from "react";
-import camry from "../../assets/carstatic.jpg";
+import toyota from "../../assets/ToyotaCamryNew.png";
+import tcross from "../../assets/T-Cross2023.png";
+import cclass from "../../assets/C-Class.png";
+import ford from "../../assets/FordTransit.png";
+import GLC from "../../assets/NewGLC_2023.png";
+import audi from "../../assets/Audi A63.5.png";
+import Corolla from "../../assets/CorollaAltis.png";
+import forde from "../../assets/FordExplorer.png";
 
 const Cars = [
     {
         id: 1,
         badge: "Great Price",
-        image: camry,
+        image: toyota,
         title: "Toyota Camry New",
         description: "3.5 D5 PowerPulse Momentum 5dr AWD",
         mileage: "20 Miles",
@@ -15,7 +22,7 @@ const Cars = [
     },
     {
         id: 2,
-        image: camry,
+        image: tcross,
         title: "T-Cross — 2023",
         description: "4.0 D5 PowerPulse Momentum 5dr AWD",
         mileage: "15 Miles",
@@ -25,7 +32,7 @@ const Cars = [
     },
     {
         id: 3,
-        image: camry,
+        image: cclass,
         title: "C-Class — 2023",
         description: "4.0 D5 PowerPulse Momentum 5dr AWD",
         mileage: "50 Miles",
@@ -36,7 +43,7 @@ const Cars = [
     {
         id: 4,
         badge: "Great Price",
-        image: camry,
+        image: ford,
         title: "Ford Transit — 2021",
         description: "4.0 D5 PowerPulse Momentum 5dr AWD",
         mileage: "2500 Miles",
@@ -47,7 +54,7 @@ const Cars = [
     {
         id: 5,
         badge: "Low Mileage",
-        image: camry,
+        image: GLC,
         title: "New GLC — 2023",
         description: "4.0 D5 PowerPulse Momentum 5dr AWD",
         mileage: "50 Miles",
@@ -57,7 +64,7 @@ const Cars = [
     },
     {
         id: 6,
-        image: camry,
+        image: audi,
         title: "Audi A6 3.5 — New",
         description: "3.5 D5 PowerPulse Momentum 5dr AWD",
         mileage: "100 Miles",
@@ -67,7 +74,7 @@ const Cars = [
     },
     {
         id: 7,
-        image: camry,
+        image: Corolla,
         title: "Corolla Altis — 2023",
         description: "3.5 D5 PowerPulse Momentum 5dr AWD",
         mileage: "15000 Miles",
@@ -78,7 +85,7 @@ const Cars = [
     {
         id: 8,
         badge: "Great Price",
-        image: camry,
+        image: forde,
         title: "Ford Explorer 2023",
         description: "3.5 D5 PowerPulse Momentum 5dr AWD",
         mileage: "10 Miles",
