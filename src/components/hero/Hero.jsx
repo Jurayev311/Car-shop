@@ -5,7 +5,6 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import mercedes from '../../assets/Mercedes.jpg';
 import fast from '../../assets/Fast.jpg';
-import lifestyle from '../../assets/lifestyle.jpg';
 import Perfect from '../../assets/Perfect.jpg';
 import Ranger from '../../assets/Ranger.jpg';
 import { CgArrowTopRight } from "react-icons/cg";
@@ -32,9 +31,6 @@ const Hero = () => {
           </SwiperSlide>
           <SwiperSlide>
             <img className='w-full h-[80vh] md:h-screen object-cover' src={fast} alt="Fast car view" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img className='w-full h-[80vh] md:h-screen object-cover' src={lifestyle} alt="Lifestyle image" />
           </SwiperSlide>
           <SwiperSlide>
             <img className='w-full h-[80vh] md:h-screen object-cover' src={Perfect} alt="Perfect car scenery" />
