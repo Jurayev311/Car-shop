@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from 'antd';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import comingsoon from '../../assets/coming.svg'
 
 const ComingSoon = () => {
   const navigate = useNavigate();
@@ -15,7 +16,7 @@ const ComingSoon = () => {
         className="text-center max-w-xl"
       >
         <motion.img
-          src="/src/assets/coming.svg"
+          src={comingsoon}
           alt="Coming Soon"
           className="w-64 mx-auto mb-8"
           initial={{ scale: 0.8 }}
