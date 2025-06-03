@@ -3,9 +3,8 @@ import { FaGithub, FaLinkedin, FaTelegram } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <footer className="bg-white border border-gray-300 text-black py-10 px-4 mt-[100px]">
+    <footer className="bg-white border border-gray-300 text-black py-10 px-4 mt-[60px]">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
-        {/* Company Section */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Company</h3>
           <ul className="space-y-2">
@@ -18,7 +17,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Quick Links Section */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
           <ul className="space-y-2">
@@ -29,7 +27,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Our Brands Section */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Our Brands</h3>
           <ul className="space-y-2">
@@ -44,7 +41,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Vehicles Type Section */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Vehicles Type</h3>
           <ul className="space-y-2">
@@ -59,7 +55,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Sale Hours & Connect With Us Section */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Sale Hours</h3>
           <ul className="space-y-2 mb-6">

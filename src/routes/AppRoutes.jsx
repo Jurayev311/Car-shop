@@ -6,6 +6,7 @@ import Blog from '../pages/listing/Listing'
 import About from '../pages/about/About'
 import Contact from '../pages/contact/Contact'
 import { Route, Routes } from 'react-router-dom'
+import NotFound from '../pages/not-found/NotFound'
 
 const AppRoutes = () => {
     return (
@@ -17,6 +18,8 @@ const AppRoutes = () => {
                     <Route path='blog' element={<Blog />} />
                     <Route path='about' element={<About />} />
                     <Route path='contact' element={<Contact />} />
+                    <Route path='contact' element={<Contact />} />
+                    <Route path='*' element={<NotFound />} />
                 </Route>
             </Routes>
         </>

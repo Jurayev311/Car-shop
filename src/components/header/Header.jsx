@@ -34,7 +34,7 @@ const Header = () => {
             <li><NavLink to={'/blog'}>Blog</NavLink></li>
             <li><NavLink to={'/about'}>About</NavLink></li>
             <li><NavLink to={'/contact'}>Contact</NavLink></li>
-            <button className='border p-2 px-3.5 rounded-2xl cursor-pointer hover:bg-[#ffffff73] hover:border-gray-300 active:scale-95 duration-150'>Submit Listing</button>
+            <button className='border p-2 px-3.5 rounded-2xl cursor-pointer hover:bg-[#ffffff73] hover:border-gray-300 active:scale-95 duration-150'><a href="https://t.me/Javohir_Frontend" target='_blank'>Submit Listing</a></button>
           </ul>
         </nav>
       </div>
