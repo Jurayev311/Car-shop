@@ -5,6 +5,10 @@
     user-select: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
     max-width: 1480px;
     width: 100%;
