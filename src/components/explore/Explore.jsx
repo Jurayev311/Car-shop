@@ -3,17 +3,20 @@ import { request } from "../../api";
 import { IoColorFill } from "react-icons/io5";
 import { BsFillFuelPumpFill } from "react-icons/bs";
 import { TbAutomaticGearbox } from "react-icons/tb";
+import { Skeleton } from "antd";
 
 const Explore = () => {
 
     const [data, setData] = useState(null)
+    const [loading, setLoading] = useState(false)
 
     useEffect(() => {
+        setLoading(true)
         request
             .get("/autodeals")
             .then(res => setData(res.data))
             .catch(err => console.log(err))
-            .finally()
+            .finally(() => setLoading(false))
     }, [])
 
     console.log(data);
@@ -24,7 +27,26 @@ const Explore = () => {
             <div className="containerL">
                 <h2 className="text-[36px] font-bold mb-[40px]">Explore All Vehicles</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                    {data?.slice(0, 8).map((car) => (
+                    {
+                    loading ? Array.from({length: 8}).map((_, index) => (
+                        <div key={index}>
+                            <Skeleton.Image 
+                                active
+                                className="mb-2.5"
+                                style={{
+                                    width: "300px",
+                                    height: "170px"
+                                }}
+                            />
+
+                            <Skeleton
+                                active
+                                paragraph={{rows: 2}}
+                                title={{width: "60%"}}
+                            />
+                        </div>
+                    ))
+                    : data?.slice(0, 8).map((car) => (
                         <div
                             key={car.id}
                             className="bg-white shadow rounded-2xl overflow-hidden p-4 relative"
