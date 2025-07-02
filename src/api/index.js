@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const request = axios.create({
-    baseURL: import.meta.env.VITE_API_URL
+    baseURL: "https://686523b45b5d8d03397fe229.mockapi.io"
 })
 
 export {request}
