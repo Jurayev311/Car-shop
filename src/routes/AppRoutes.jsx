@@ -7,6 +7,7 @@ import About from '../pages/about/About'
 import Contact from '../pages/contact/Contact'
 import { Route, Routes } from 'react-router-dom'
 import NotFound from '../pages/not-found/NotFound'
+import DetailPage from '../pages/detailPage/DetailPage'
 
 const AppRoutes = () => {
     return (
@@ -19,6 +20,7 @@ const AppRoutes = () => {
                     <Route path='about' element={<About />} />
                     <Route path='contact' element={<Contact />} />
                     <Route path='contact' element={<Contact />} />
+                    <Route path='auto/:id' element={<DetailPage />} />
                     <Route path='*' element={<NotFound />} />
                 </Route>
             </Routes>

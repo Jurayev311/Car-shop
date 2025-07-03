@@ -4,6 +4,7 @@ import { IoColorFill } from "react-icons/io5";
 import { BsFillFuelPumpFill } from "react-icons/bs";
 import { TbAutomaticGearbox } from "react-icons/tb";
 import { Skeleton } from "antd";
+import { Link } from "react-router-dom";
 
 const Explore = () => {
 
@@ -17,10 +18,7 @@ const Explore = () => {
             .then(res => setData(res.data))
             .catch(err => console.log(err))
             .finally(() => setLoading(false))
-    }, [])
-
-    console.log(data);
-    
+    }, [])    
 
     return (
         <section className="mt-[130px]">
@@ -65,12 +63,12 @@ const Explore = () => {
                             </div>
                             <div className="flex justify-between items-center">
                                 <span className="text-lg font-semibold">{car?.price_per_day}$</span>
-                                <a
-                                    href="#"
+                                <Link
+                                    to={`/auto/${car.id}`}
                                     className="text-blue-600 hover:underline text-sm font-medium"
                                 >
                                     View Details →
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     ))}
