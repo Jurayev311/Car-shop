@@ -24,13 +24,13 @@ const ComingSoon = () => {
           transition={{ duration: 0.6 }}
         />
 
-        <h1 className="text-4xl font-bold text-gray-800 mb-4">Coming Soon</h1>
+        <h1 className="text-4xl font-bold text-gray-800 mb-4">Tez Kunda</h1>
         <p className="text-gray-600 text-lg mb-6">
-          This page is under construction. We’re working hard to bring it to life very soon.
+          Sahifa ishlab chiqilmoqda. Tez orada foydalanishingiz mumkin bo‘ladi.
         </p>
 
         <Button type="primary" size="large" onClick={() => navigate('/')}>
-          Back to Home
+          Bosh sahifa
         </Button>
       </motion.div>
     </div>

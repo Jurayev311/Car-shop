@@ -19,7 +19,7 @@ const CarType = () => {
   return (
     <section className='mt-[80px]'>
       <div className='containerL'>
-        <h2 className='text-[36px] font-bold mb-[40px]'>Browse by Type</h2>
+        <h2 className='text-[36px] font-bold mb-[40px]'>Mavjud avtomobillar</h2>
 
         <div className='grid grid-cols-6 gap-[30px]'>
           {types.map((item, index) => (

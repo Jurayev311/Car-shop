@@ -23,7 +23,7 @@ const Explore = () => {
     return (
         <section className="mt-[130px]">
             <div className="containerL">
-                <h2 className="text-[36px] font-bold mb-[40px]">Explore All Vehicles</h2>
+                <h2 className="text-[36px] font-bold mb-[40px]">Mashinalar bilan tanishing</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                     {
                     loading ? Array.from({length: 8}).map((_, index) => (
@@ -67,11 +67,14 @@ const Explore = () => {
                                     to={`/auto/${car.id}`}
                                     className="text-blue-600 hover:underline text-sm font-medium"
                                 >
-                                    View Details →
+                                    To‘liq ma’lumot →
                                 </Link>
                             </div>
                         </div>
                     ))}
+                </div>
+                 <div className="flex items-center justify-center mt-[50px]">
+                    <Link to={'/listing'} className="py-3 px-7 bg-blue-600 text-white rounded-xl cursor-pointer hover:bg-blue-700 duration-200">Barchasini ko‘rish</Link>
                 </div>
             </div>
         </section>

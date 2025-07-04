@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
+import { TbCarambolaFilled } from "react-icons/tb";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false)
@@ -29,12 +30,12 @@ const Header = () => {
           </Link>
 
           <ul className='flex items-center gap-[30px] text-[15px] font-medium'>
-            <li><NavLink to={'/'}>Home</NavLink></li>
-            <li><NavLink to={'/listing'}>Listing</NavLink></li>
+            <li><NavLink to={'/'}>Bosh sahifa</NavLink></li>
+            <li><NavLink to={'/listing'}>Mashinalar</NavLink></li>
             <li><NavLink to={'/blog'}>Blog</NavLink></li>
-            <li><NavLink to={'/about'}>About</NavLink></li>
-            <li><NavLink to={'/contact'}>Contact</NavLink></li>
-            <button className='border p-2 px-3.5 rounded-2xl cursor-pointer hover:bg-[#ffffff73] hover:border-gray-300 active:scale-95 duration-150'><a href="https://t.me/Javohir_Frontend" target='_blank'>Submit Listing</a></button>
+            <li><NavLink to={'/about'}>Biz haqimizda</NavLink></li>
+            <li><NavLink to={'/contact'}>Aloqa</NavLink></li>
+            <Link to={'/wishlist'} className='border p-2 px-3.5 rounded-[8px] cursor-pointer hover:bg-[#ffffff73] hover:border-gray-300 hover:text-yellow-500 active:scale-95 duration-150'><TbCarambolaFilled /></Link>
           </ul>
         </nav>
       </div>

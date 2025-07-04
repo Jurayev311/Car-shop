@@ -3,10 +3,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import mercedes from '../../assets/Mercedes.jpg';
-import fast from '../../assets/Fast.jpg';
-import Perfect from '../../assets/Perfect.jpg';
-import Ranger from '../../assets/Ranger.jpg';
+import malibu from '../../assets/malibu.jpg'
+import cobalt from '../../assets/cobalt.jpg'
+import onix from '../../assets/onix.jpg'
+import kia from '../../assets/kia.jpg'
 import { CgArrowTopRight } from "react-icons/cg";
 import { Link } from 'react-router-dom';
 
@@ -21,37 +21,34 @@ const Hero = () => {
           className="mySwiper relative"
         >
           
-
           <SwiperSlide>
-            <img className='w-full h-[80vh] md:h-screen object-cover' src={mercedes} alt="Mercedes-Benz, C Class" />
-          <div className='absolute top-[50%] left-[20%] translate-x-[-15%] translate-y-[-50%] z-20'>
-            <p className='font-bold text-[40px]'>$35,000</p>
-            <h2 className='font-medium text-[70px]'>Mercedes-Benz, C Class</h2>
-            <Link to={'/listing'} className='flex items-center justify-center w-[165px] h-[48px] rounded-[16px] bg-white text-black cursor-pointer mt-[5px]'>Learn More <CgArrowTopRight /> </Link>
+            <img className='w-full h-[80vh] md:h-screen object-cover' src={malibu} alt="Mercedes-Benz, C Class" />
+          <div className='absolute top-[50%] left-[15%] translate-x-[-15%] translate-y-[-50%] z-20'>
+            <h2 className='font-medium text-[70px]'>Chevrolet Malibu 2</h2>
+            <Link to={'/listing'} className='flex items-center justify-center w-[165px] h-[48px] rounded-[16px] bg-white text-black cursor-pointer mt-[5px]'>To‘liq ma'lumot <CgArrowTopRight /> </Link>
           </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img className='w-full h-[80vh] md:h-screen object-cover' src={fast} alt="Fast car view" />
-            <div className='absolute top-[50%] left-[20%] translate-x-[-15%] translate-y-[-50%] z-20'>
-            <p className='font-bold text-[40px]'>$75,000</p>
-            <h2 className='font-medium text-[70px]'>Fast, Simple and Easy</h2>
-            <Link to={'/listing'} className='flex items-center justify-center w-[165px] h-[48px] rounded-[16px] bg-white text-black cursor-pointer mt-[5px]'>Learn More <CgArrowTopRight /> </Link>
+            <img className='w-full h-[80vh] md:h-screen object-cover' src={cobalt} alt="Fast car view" />
+            <div className='absolute top-[50%] left-[15%] translate-x-[-15%] translate-y-[-50%] z-20'>
+            <h2 className='font-medium text-[70px]'>Chevrolet Cobalt</h2>
+            <Link to={'/listing'} className='flex items-center justify-center w-[165px] h-[48px] rounded-[16px] bg-white text-black cursor-pointer mt-[5px]'>To‘liq ma'lumot <CgArrowTopRight /> </Link>
           </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img className='w-full h-[80vh] md:h-screen object-cover' src={Perfect} alt="Perfect car scenery" />
-            <div className='absolute top-[50%] left-[20%] translate-x-[-15%] translate-y-[-50%] z-20'>
+            <img className='w-full h-[80vh] md:h-screen object-cover' src={onix} alt="Perfect car scenery" />
+            <div className='absolute top-[50%] left-[15%] translate-x-[-15%] translate-y-[-50%] z-20'>
             <p className='font-bold text-[40px]'>$200,000</p>
-            <h2 className='font-medium text-[70px]'>Ferrari 488 GTB</h2>
-            <Link to={'/listing'} className='flex items-center justify-center w-[165px] h-[48px] rounded-[16px] bg-white text-black cursor-pointer mt-[5px]'>Learn More <CgArrowTopRight /> </Link>
+            <h2 className='font-medium text-[70px]'>Chevrolet Onix</h2>
+            <Link to={'/listing'} className='flex items-center justify-center w-[165px] h-[48px] rounded-[16px] bg-white text-black cursor-pointer mt-[5px]'>To‘liq ma'lumot <CgArrowTopRight /> </Link>
           </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img className='w-full h-[80vh] md:h-screen object-cover' src={Ranger} alt="Ranger car" />
-            <div className='absolute top-[50%] left-[20%] translate-x-[-15%] translate-y-[-50%] z-20'>
+            <img className='w-full h-[80vh] md:h-screen object-cover' src={kia} alt="Ranger car" />
+            <div className='absolute top-[50%] left-[15%] translate-x-[-15%] translate-y-[-50%] z-20'>
             <p className='font-bold text-[40px]'>$50,000</p>
-            <h2 className='font-medium text-[70px]'>Volvo XC90</h2>
-            <Link to={'/listing'} className='flex items-center justify-center w-[165px] h-[48px] rounded-[16px] bg-white text-black cursor-pointer mt-[5px]'>Learn More <CgArrowTopRight /> </Link>
+            <h2 className='font-medium text-[70px]'>KIA K5</h2>
+            <Link to={'/listing'} className='flex items-center justify-center w-[165px] h-[48px] rounded-[16px] bg-white text-black cursor-pointer mt-[5px]'>To‘liq ma'lumot <CgArrowTopRight /> </Link>
           </div>
           </SwiperSlide>
         </Swiper>

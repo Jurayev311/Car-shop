@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 
-const topScroll = () => {
+const TopScroll = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -9,4 +9,4 @@ const topScroll = () => {
   return null;
 }
 
-export default React.memo(topScroll)
+export default React.memo(TopScroll)

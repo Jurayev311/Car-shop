@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { request } from '../../api'
 import { useParams } from 'react-router-dom'
 import TopScroll from '../../components/top-scroll/top-scroll'
-import { h2 } from 'framer-motion/client'
 import { Skeleton } from 'antd'
 
 const DetailPage = () => {
@@ -19,8 +18,6 @@ const DetailPage = () => {
             .catch(err => console.log(err))
             .finally(() => setLoading(false))
     }, [id])
-
-    console.log(data);
 
     return (
         <>
