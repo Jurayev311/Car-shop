@@ -38,7 +38,6 @@ const Hero = () => {
           <SwiperSlide>
             <img className='w-full h-[80vh] md:h-screen object-cover' src={onix} alt="Perfect car scenery" />
             <div className='absolute top-[50%] left-[15%] translate-x-[-15%] translate-y-[-50%] z-20'>
-            <p className='font-bold text-[40px]'>$200,000</p>
             <h2 className='font-medium text-[70px]'>Chevrolet Onix</h2>
             <Link to={'/listing'} className='flex items-center justify-center w-[165px] h-[48px] rounded-[16px] bg-white text-black cursor-pointer mt-[5px]'>To‘liq ma'lumot <CgArrowTopRight /> </Link>
           </div>
@@ -46,7 +45,6 @@ const Hero = () => {
           <SwiperSlide>
             <img className='w-full h-[80vh] md:h-screen object-cover' src={kia} alt="Ranger car" />
             <div className='absolute top-[50%] left-[15%] translate-x-[-15%] translate-y-[-50%] z-20'>
-            <p className='font-bold text-[40px]'>$50,000</p>
             <h2 className='font-medium text-[70px]'>KIA K5</h2>
             <Link to={'/listing'} className='flex items-center justify-center w-[165px] h-[48px] rounded-[16px] bg-white text-black cursor-pointer mt-[5px]'>To‘liq ma'lumot <CgArrowTopRight /> </Link>
           </div>
