@@ -13,7 +13,7 @@ const Footer = () => {
           <span className="font-bold text-lg tracking-wide">Avto Savdo</span>
         </div>
         <nav className="flex gap-4 text-sm">
-          <NavLink to="/" className="hover:text-yellow-400 transition">Bosh sahifa</NavLink>
+          <NavLink to="/" className="hover:text-gray-400 transition">Bosh sahifa</NavLink>
           <NavLink to="/about" className="hover:text-gray-400 transition">Biz haqimizda</NavLink>
           <NavLink to="/blog" className="hover:text-gray-400 transition">Blog</NavLink>
           <NavLink to="/contact" className="hover:text-gray-400 transition">Aloqa</NavLink>
