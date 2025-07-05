@@ -18,7 +18,7 @@ const Header = () => {
   const HomePage = location.pathname === '/'
 
   const headerBg = HomePage
-    ? `${scrolled ? 'bg-[#ffffff73] backdrop-blur-[8px] text-[#1c1c1c]' : 'bg-transparent text-white'}`
+    ? `${scrolled ? 'bg-[#ffffff73] backdrop-blur-[8px] text-[#1c1c1c]' : 'bg-[#ffffff49] text-black'}`
     : 'bg-[#050B20] text-white'
 
   return (
