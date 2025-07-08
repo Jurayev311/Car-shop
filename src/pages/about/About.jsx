@@ -1,12 +1,12 @@
 import React from 'react'
-import ComingSoon from '../../components/comingSoon/ComingSoon'
 import TopScroll from '../../components/top-scroll/top-scroll'
+import AboutComponent from '../../components/aboutComponent/AboutComponent'
 
 const About = () => {
   return (
     <>
     <TopScroll />
-    <ComingSoon />
+    <AboutComponent />
     </>
   )
 }

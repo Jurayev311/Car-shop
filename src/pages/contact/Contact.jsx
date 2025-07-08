@@ -1,12 +1,12 @@
 import React from 'react'
-import ComingSoon from '../../components/comingSoon/ComingSoon'
 import TopScroll from '../../components/top-scroll/top-scroll'
+import ContactComponent from '../../components/contactComponent/ContactComponent'
 
 const Contact = () => {
   return (
     <>
       <TopScroll />
-      <ComingSoon />
+      <ContactComponent />
     </>
   )
 }

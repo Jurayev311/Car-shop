@@ -2,13 +2,13 @@ import React from 'react'
 import MainLayout from '../layouts/MainLayout'
 import Home from '../pages/home/Home'
 import Listing from '../pages/listing/Listing'
-import Blog from '../pages/blog/Blog'
 import About from '../pages/about/About'
 import Contact from '../pages/contact/Contact'
 import { Route, Routes } from 'react-router-dom'
 import NotFound from '../pages/not-found/NotFound'
 import DetailPage from '../pages/detailPage/DetailPage'
 import Wishlist from '../pages/wishlist/Wishlist'
+import Blog from '../pages/blog/Blog'
 
 const AppRoutes = () => {
     return (
