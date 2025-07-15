@@ -1,6 +1,8 @@
 import React from "react";
 
 const ContactComponent = () => {
+
+
     return (
         <section className="bg-gradient-to-br from-white to-blue-50 min-h-screen py-16">
             <div className="container mx-auto px-4">

@@ -25,28 +25,28 @@ const Hero = () => {
             <img className='w-full h-[80vh] md:h-screen object-cover' src={malibu} alt="Mercedes-Benz, C Class" />
           <div className='absolute top-[50%] left-[15%] translate-x-[-15%] translate-y-[-50%] z-20'>
             <h2 className='font-medium text-[70px]'>Chevrolet Malibu 2</h2>
-            <Link to={'/listing'} className='flex items-center justify-center w-[165px] h-[48px] rounded-[16px] bg-white text-black cursor-pointer mt-[5px]'>To‘liq ma'lumot <CgArrowTopRight /> </Link>
+            <Link to={'/listing'} className='flex items-center justify-center w-[165px] h-[48px] rounded-[16px] bg-white text-black cursor-pointer mt-[5px]'>Barcha mashinalar <CgArrowTopRight /> </Link>
           </div>
           </SwiperSlide>
           <SwiperSlide>
             <img className='w-full h-[80vh] md:h-screen object-cover' src={cobalt} alt="Fast car view" />
             <div className='absolute top-[50%] left-[15%] translate-x-[-15%] translate-y-[-50%] z-20'>
             <h2 className='font-medium text-[70px]'>Chevrolet Cobalt</h2>
-            <Link to={'/listing'} className='flex items-center justify-center w-[165px] h-[48px] rounded-[16px] bg-white text-black cursor-pointer mt-[5px]'>To‘liq ma'lumot <CgArrowTopRight /> </Link>
+            <Link to={'/listing'} className='flex items-center justify-center w-[165px] h-[48px] rounded-[16px] bg-white text-black cursor-pointer mt-[5px]'>Barcha mashinalar <CgArrowTopRight /> </Link>
           </div>
           </SwiperSlide>
           <SwiperSlide>
             <img className='w-full h-[80vh] md:h-screen object-cover' src={onix} alt="Perfect car scenery" />
             <div className='absolute top-[50%] left-[15%] translate-x-[-15%] translate-y-[-50%] z-20'>
             <h2 className='font-medium text-[70px]'>Chevrolet Onix</h2>
-            <Link to={'/listing'} className='flex items-center justify-center w-[165px] h-[48px] rounded-[16px] bg-white text-black cursor-pointer mt-[5px]'>To‘liq ma'lumot <CgArrowTopRight /> </Link>
+            <Link to={'/listing'} className='flex items-center justify-center w-[165px] h-[48px] rounded-[16px] bg-white text-black cursor-pointer mt-[5px]'>Barcha mashinalar <CgArrowTopRight /> </Link>
           </div>
           </SwiperSlide>
           <SwiperSlide>
             <img className='w-full h-[80vh] md:h-screen object-cover' src={kia} alt="Ranger car" />
             <div className='absolute top-[50%] left-[15%] translate-x-[-15%] translate-y-[-50%] z-20'>
             <h2 className='font-medium text-[70px]'>KIA K5</h2>
-            <Link to={'/listing'} className='flex items-center justify-center w-[165px] h-[48px] rounded-[16px] bg-white text-black cursor-pointer mt-[5px]'>To‘liq ma'lumot <CgArrowTopRight /> </Link>
+            <Link to={'/listing'} className='flex items-center justify-center w-[165px] h-[48px] rounded-[16px] bg-white text-black cursor-pointer mt-[5px]'>Barcha mashinalar <CgArrowTopRight /> </Link>
           </div>
           </SwiperSlide>
         </Swiper>

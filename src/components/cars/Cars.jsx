@@ -51,16 +51,16 @@ const Cars = () => {
                         ))
                             : data?.slice(0, visible).map((car) => (
                                 <div
-                                    key={car.id}
+                                    key={car?.id}
                                     className="bg-white shadow rounded-2xl overflow-hidden p-4 relative"
                                 >
                                     <img
-                                        src={car.image}
+                                        src={car?.image}
                                         alt={car?.name}
                                         className="w-full h-[170px] object-cover rounded-xl mb-4"
                                     />
-                                    <h3 className="font-bold text-lg mb-1">{car.name}</h3>
-                                    <p title={car?.description} className="text-sm text-gray-500 mb-3 line-clamp-2">{car.description}</p>
+                                    <h3 className="font-bold text-lg mb-1">{car?.name}</h3>
+                                    <p title={car?.description} className="text-sm text-gray-500 mb-3 line-clamp-2">{car?.description}</p>
                                     <div className="flex justify-between text-sm text-gray-600 mb-3 italic">
                                         <span className="flex items-center gap-1"><IoColorFill />{car?.color}</span>
                                         <span className="flex items-center gap-1"><BsFillFuelPumpFill />{car?.fuel_type}</span>
