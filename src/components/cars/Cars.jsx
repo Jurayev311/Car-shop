@@ -26,7 +26,7 @@ const Cars = () => {
     }
 
     return (
-        <section className="mt-[130px] min-h-screen">
+        <section className="mt-[130px] min-h-screen mb-10">
             <div className="containerL">
                 <h2 className="text-[36px] font-bold mb-[40px]">Mashinalar bilan tanishing</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">

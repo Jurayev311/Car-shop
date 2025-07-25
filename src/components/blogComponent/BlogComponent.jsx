@@ -2,7 +2,7 @@ import React from 'react'
 
 const BlogComponent = () => {
   return (
-    <section className="py-16 bg-gray-50 mt-[260px] min-h-screen">
+    <section className="py-16 bg-gray-50 pt-[260px] min-h-screen">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
           Blog Maqolalar

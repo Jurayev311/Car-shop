@@ -10,7 +10,7 @@ const Progress = () => {
     });
 
     return (
-        <section className='mt-[120px]' ref={ref}>
+        <section className='mt-[120px] mb-10' ref={ref}>
             <div className='containerL'>
                 <div className='bg-[#EEF1FB] py-[90px] px-[90px] rounded-2xl'>
                     <div className='grid grid-cols-4 gap-[124px] place-items-center text-center text-[#405FF2]'>
