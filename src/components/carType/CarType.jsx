@@ -21,7 +21,7 @@ const CarType = () => {
       <div className='containerL'>
         <h2 className='text-[36px] font-bold mb-[40px]'>Mavjud avtomobillar</h2>
 
-        <div className='grid grid-cols-6 gap-[30px]'>
+        <div className='grid 2xl:grid-cols-6 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-[30px]'>
           {types.map((item, index) => (
             <div
               key={index}
