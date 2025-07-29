@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import TopScroll from "../../components/top-scroll/top-scroll";
 import { LoadingOutlined } from "@ant-design/icons";
 import { Flex, Spin } from "antd";
+import { Button, Result } from 'antd';
 import {
     FaCar,
     FaCalendarAlt,
@@ -21,15 +22,34 @@ const DetailPage = () => {
     const { id } = useParams();
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(false);
+    const [error, setError] = useState(null)
 
     useEffect(() => {
         setLoading(true);
         request
             .get(`/autodeals/${id}`)
             .then((res) => setData(res.data))
-            .catch((err) => console.log(err))
+            .catch((err) => setError(err))
             .finally(() => setLoading(false));
     }, [id]);
+
+    if (error) {
+        return <div className="containerL">
+            <div className="min-h-screen flex items-center justify-center">
+                <div className="flex flex-col items-center justify-center min-h-screen">
+                    <Result
+                        status="error"
+                        title="Ma’lumotni jo‘natishda xatolik"
+                        subTitle="Sahifani yangilang yoki keyinroq harakat qilib ko‘ring."
+                        extra={[
+                            <Button key="retry" onClick={() => window.location.reload()}>Qayta urinib ko‘rish</Button>,
+                        ]}
+                    >
+                    </Result>
+                </div>
+            </div>
+        </div>
+    }
 
     return (
         <>
@@ -50,7 +70,7 @@ const DetailPage = () => {
                     </div>
                 </div>
             ) : (
-                <section className="bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 pt-[120px] pb-16">
+                <section className="bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 pt-[120px] pb-16 min-h-screen">
                     <div className="containerL mx-auto px-4 max-w-7xl">
                         <div className="mb-8">
                             <nav className="flex items-center space-x-2 text-sm text-gray-600">

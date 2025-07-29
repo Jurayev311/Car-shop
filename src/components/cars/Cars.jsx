@@ -5,24 +5,44 @@ import { BsFillFuelPumpFill } from "react-icons/bs";
 import { TbAutomaticGearbox } from "react-icons/tb";
 import { Skeleton } from "antd";
 import { Link } from 'react-router-dom'
+import { Button, Result } from 'antd';
 
 const Cars = () => {
 
     const [data, setData] = useState(null)
     const [loading, setLoading] = useState(false)
     const [visible, setVisible] = useState(12)
+    const [error, setError] = useState(null)
 
     useEffect(() => {
         setLoading(true)
         request
             .get("/autodeals")
             .then(res => setData(res.data))
-            .catch(err => console.log(err))
+            .catch(err => setError(err))
             .finally(() => setLoading(false))
     }, [])
 
     const loadMore = () => {
         setVisible(prev => prev + 12)
+    }
+
+    if (error) {
+        return <div className="containerL">
+            <div className="min-h-screen flex items-center justify-center">
+                <div className="flex flex-col items-center justify-center min-h-screen">
+                    <Result
+                        title="Amaliyot bajarildi"
+                        subTitle="Lekin, ma'lumotlar kelmadi. Iltimos, sahifani yangilang va yana urinib ko‘ring."
+                        extra={
+                            <Button type="primary" onClick={() => window.location.reload()}>
+                                Sahifani yangilash
+                            </Button>
+                        }
+                    />
+                </div>
+            </div>
+        </div>
     }
 
     return (
