@@ -9,6 +9,7 @@ import NotFound from '../pages/not-found/NotFound'
 import DetailPage from '../pages/detailPage/DetailPage'
 import Wishlist from '../pages/wishlist/Wishlist'
 import Blog from '../pages/blog/Blog'
+import Chat from '../pages/chat/Chat'
 
 const AppRoutes = () => {
     return (
@@ -21,6 +22,7 @@ const AppRoutes = () => {
                     <Route path='about' element={<About />} />
                     <Route path='contact' element={<Contact />} />
                     <Route path='wishlist' element={<Wishlist />} />
+                    <Route path='chat' element={<Chat />} />
                     <Route path='auto/:id' element={<DetailPage />} />
                     <Route path='*' element={<NotFound />} />
                 </Route>
