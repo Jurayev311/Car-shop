@@ -38,7 +38,7 @@ const Header = () => {
             <li><NavLink to={'/about'}>Biz haqimizda</NavLink></li>
             <li><NavLink to={'/contact'}>Aloqa</NavLink></li>
             <Link to={'/wishlist'} className='border p-2 px-3.5 rounded-[8px] cursor-pointer hover:bg-[#ffffff73] hover:border-gray-300 hover:text-yellow-500 active:scale-95 duration-150'><TbCarambolaFilled /></Link>
-            <Link to={'/chat'} className='border p-2 px-3.5 rounded-[8px] cursor-pointer hover:bg-[#ffffff73] hover:border-gray-300 hover:text-blue-400 active:scale-95 duration-150'><IoMdContacts /></Link>
+            <Link to={'/chat  '} className='border p-2 px-3.5 rounded-[8px] cursor-pointer hover:bg-[#ffffff73] hover:border-gray-300 hover:text-blue-400 active:scale-95 duration-150'><IoMdContacts /></Link>
           </ul>
 
           <div className='md:hidden block'>

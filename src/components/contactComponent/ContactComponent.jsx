@@ -23,13 +23,11 @@ const ContactComponent = () => {
     e.preventDefault()
     setIsSubmitting(true)
 
-    // Simulate form submission
     setTimeout(() => {
       setIsSubmitting(false)
       setSubmitStatus("success")
       setFormData({ fullname: "", age: "", phone: "", message: "" })
 
-      // Reset status after 3 seconds
       setTimeout(() => setSubmitStatus(null), 3000)
     }, 2000)
   }
