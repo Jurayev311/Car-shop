@@ -17,7 +17,7 @@ const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  const HomePage = location.pathname === '/'
+  const HomePage = location.pathname === '/' || location.pathname === '/chat';
 
   const headerBg = HomePage
     ? `${scrolled ? 'bg-[#ffffff73] backdrop-blur-[8px] text-[#1c1c1c]' : 'bg-[#ffffff49] text-black'}`
@@ -26,7 +26,7 @@ const Header = () => {
   return (
     <header className={`fixed top-0 left-0 w-full border-b-[1px] border-b-gray-400 z-50 duration-200 ${headerBg}`}>
       <div className='container'>
-        <nav className='flex items-center justify-between h-[75px]'>
+        <nav className='flex items-center justify-between h-[65px]'>
           <Link to='/'>
             <h2 className='uppercase font-bold text-xl'>Auto Deals</h2>
           </Link>

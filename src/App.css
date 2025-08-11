@@ -43,3 +43,14 @@ html {
   font-weight: bold;
   color: black;
 }
+
+/* chat.css */
+.chat-box::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+  background-color: #4b5563;
+  border-radius: 8px;
+}
+

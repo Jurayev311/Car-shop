@@ -22,10 +22,10 @@ const AppRoutes = () => {
                     <Route path='about' element={<About />} />
                     <Route path='contact' element={<Contact />} />
                     <Route path='wishlist' element={<Wishlist />} />
-                    <Route path='chat' element={<Chat />} />
                     <Route path='auto/:id' element={<DetailPage />} />
                     <Route path='*' element={<NotFound />} />
                 </Route>
+                    <Route path='chat' element={<Chat />} />
             </Routes>
         </>
     )

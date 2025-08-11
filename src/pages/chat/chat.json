@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Salomlashish va hol-ahvol so‘rash",
+    "keywords": ["salom", "assalomu alaykum", "salomlar", "salom aleykum"],
+    "answer": "Salom! 😊 Men Auto Deals AI botiman. Sizga avtomobillar haqida ma’lumot berish va yordam ko‘rsatish uchun shu yerdaman. Sizning savollaringizni kutaman!"
+  },
+  {
+    "question": "Qalaysan?",
+    "keywords": ["qalaysan", "yaxshimisan", "ahvoling", "kayfiyat", "salom"],
+    "answer": "Rahmat, yaxshi! Siz qanday? Har doim yordam berishga tayyorman."
+  },
+  {
+    "question": "Saytda necha bo'lim bor?",
+    "keywords": ["bo'limlar", "kategoriya", "qismlar", "section", "menyu"],
+    "answer": "Hozirda saytimizda 5 ta asosiy bo‘lim mavjud: Avtomobillar katalogi, Ijara xizmatlari, Maxsus takliflar, Yangiliklar va Biz haqimizda. Har bir bo‘limda sizga kerakli ma’lumotlarni topishingiz mumkin."
+  },
+  {
+    "question": "Keng tanlov haqida ma'lumot bering",
+    "keywords": ["keng tanlov", "tanlov", "mashina turlari", "avtomobil turlari", "turli mashinalar", "avto turlari"],
+    "answer": "Bizning saytimizda sedan, krossover, SUV, biznes klass, sport avtomobillari va boshqa ko‘plab turdagi avtomobillarni tanlashingiz mumkin. Har bir model haqida batafsil ma’lumot va narxlar taqdim etilgan."
+  },
+  {
+    "question": "Shaffof narxlar haqida ayting",
+    "keywords": ["shaffof narx", "narxlar", "ochiq narx", "to'lovlar", "narx", "narx siyosati", "qancha turadi"],
+    "answer": "Bizda barcha narxlar aniq va shaffof ko‘rsatilgan. Yashirin to‘lovlar yoki qo‘shimcha haq olinmaydi. Siz tanlagan avtomobil narxi shartnomada ochiq va aniq yoziladi."
+  },
+  {
+    "question": "Tez va oson ijara qanday bo‘ladi?",
+    "keywords": ["tez ijara", "oson ijara", "ijara olish", "ijara jarayoni", "qanday olish", "ijara qilish"],
+    "answer": "Agar sizda barcha zarur hujjatlar tayyor bo‘lsa, mashinani ijaraga olish jarayoni atigi 10-15 daqiqa davom etadi. Bizning xizmatimiz tezkor va qulay bo‘lib, mijozlarimiz uchun maksimal qulaylik yaratadi."
+  },
+  {
+    "question": "Yuqori sifatli xizmat nimani anglatadi?",
+    "keywords": ["sifatli xizmat", "xizmat", "yaxshi xizmat", "servis", "avto xizmat"],
+    "answer": "Bizda barcha avtomobillar muntazam texnik ko‘rikdan o‘tkaziladi va toza holatda taqdim etiladi. Har bir mijozga shaxsiy e’tibor berilib, xizmat sifati yuqori darajada ta’minlanadi."
+  },
+  {
+    "question": "Ijaraga mashina olishning afzalliklari",
+    "keywords": ["afzallik", "ijara foydasi", "ijara sabab", "ijara afzalliklari", "nega olish kerak"],
+    "answer": "Ijara sizga turli avtomobillarni sinab ko‘rish, shuningdek, uzoq muddatga bog‘lanmasdan, qulay va tejamkor foydalanish imkonini beradi. Bundan tashqari, texnik xizmatlar va ta’mirlash masalalari bilan siz shug‘ullanishingiz shart emas."
+  },
+  {
+    "question": "Yo‘lga chiqishdan oldin tayyorgarlik",
+    "keywords": ["tayyorgarlik", "yo'lga chiqish", "yo‘l oldidan", "tekshiruv", "oldindan tekshirish"],
+    "answer": "Yo‘lga chiqishdan oldin avtomobilning har bir muhim qismini, xususan, shinalar, to‘xtash tormozlari, yonilg‘i darajasi va hujjatlarni tekshirish muhim. Bu sizning xavfsizligingiz va qulay haydashingizni ta’minlaydi."
+  },
+  {
+    "question": "Ijaraga mashina olish bo‘yicha maslahatlar",
+    "keywords": ["maslahat", "ijara maslahat", "ijara qoidalari", "qoidalar", "tavsiyalar"],
+    "answer": "Ijara shartnomasini diqqat bilan o‘qib chiqing, avtomobil holatini tekshiring va ehtiyojingizga mos avtomobilni tanlang. Ishonchli kompaniyalar bilan ishlashni maqsad qiling."
+  },
+  {
+    "question": "Ijaraga olish statistikasi",
+    "keywords": ["statistika", "ijara statistikasi", "mashina soni", "mamnun mijozlar", "raqamlar"],
+    "answer": "Bizda hozirda 100 dan ortiq mashina ijaraga berilmoqda, mijozlarimizning 98 foizi xizmatimizdan mamnun. 200 dan ortiq kunlik tashriflar va 25 dan ortiq hamkor dilerlarimiz bor."
+  },
+  {
+    "question": "Avtomobilni qanday tanlash kerak?",
+    "keywords": ["avtomobil tanlash", "qanday mashina", "mashina tanlash", "eng yaxshi mashina"],
+    "answer": "Avtomobil tanlashda sizning ehtiyojlaringiz va byudjetingizni inobatga oling. Shaxsiy foydalanish uchun yoqilg‘i samaradorligi va qulayligi, tijorat uchun esa yuk ko‘tarish qobiliyati va ishonchlilik muhimdir."
+  },
+  {
+    "question": "Ijarada avtomobilni qanday sug‘urtalash mumkin?",
+    "keywords": ["ijara sug‘urta", "avtomobil sug‘urtasi", "sug‘urta qilish", "ijaraga sug‘urta"],
+    "answer": "Ijara shartnomasida avtomobil sug‘urtasi haqida ma’lumot berilgan. Ko‘plab hollarda sug‘urta ijaraga beruvchi tomon tomonidan qoplanadi, lekin ba’zi hollarda qo‘shimcha sug‘urtani ijarachi o‘zi amalga oshirishi mumkin."
+  },
+  {
+    "question": "Ijarada shartnoma qanday tuziladi?",
+    "keywords": ["ijara shartnoma", "shartnoma tuzish", "ijara hujjatlari", "shartnoma qoidalari"],
+    "answer": "Ijara shartnomasi ikki tomon o‘rtasida tuziladi va unda avtomobilning holati, ijaraning muddati, narxi, to‘lov shartlari va boshqa muhim bandlar ko‘rsatiladi. Shartnomani diqqat bilan o‘qib chiqing va shubhali joylarni aniqlang."
+  },
+  {
+    "question": "Avtomobilni qay tarzda topshirish kerak?",
+    "keywords": ["avtomobil topshirish", "ijara tugashi", "avtomobilni qaytarish", "mashina qaytarish"],
+    "answer": "Ijara muddati tugagach, avtomobilni avvalgi holatida toza va texnik jihatdan muammosiz holatda topshirish lozim. Agar biror shikast yoki nosozlik bo‘lsa, uni oldindan xabar qilish zarur."
+  },
+  {
+    "question": "Maxsus takliflar va chegirmalar mavjudmi?",
+    "keywords": ["takliflar", "chegirmalar", "maxsus taklif", "aksiya", "promo"],
+    "answer": "Ha, biz vaqti-vaqti bilan maxsus takliflar va chegirmalar taqdim etamiz. Eng so‘nggi aksiyalar haqida saytimizdagi Maxsus takliflar bo‘limidan yoki bizning ijtimoiy tarmoqlarimizdan xabardor bo‘ling."
+  }
+]
