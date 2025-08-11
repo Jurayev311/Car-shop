@@ -4,7 +4,7 @@ import { Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import malibu from '../../assets/malibu.jpg'
-import cobalt from '../../assets/cobalt.jpg'
+import cobalt from '../../assets/cobalt.png'
 import onix from '../../assets/onix.jpg'
 import kia from '../../assets/kia.jpg'
 import { CgArrowTopRight } from "react-icons/cg";
